@@ -1,0 +1,169 @@
+🚲 Bike Station Overview – Power BI Dashboard
+
+
+📌 Project Overview
+Public bike-sharing systems generate continuous real-time data across thousands of stations and multiple cities.
+This project analyzes a bike station dataset using Power BI to understand station performance, utilization, availability, and operational efficiency.
+The goal is to transform raw station-level data into actionable urban mobility insights that help operators improve service reliability, bike availability, and capacity planning.
+
+🏷️ Domain
+Urban Mobility Analytics | Transportation & Smart Cities
+
+📂 Dataset Overview
+
+
+Dataset Type: Real-time bike station snapshot
+
+
+Coverage: Multiple cities (contracts)
+
+
+Granularity: Station level
+
+
+Total Stations: 2,700
+
+
+Metrics Covered: Bikes, bike stands, station status, banking support
+
+
+
+🛠️ Tools & Technologies
+
+
+Power BI
+
+
+DAX (Data Analysis Expressions)
+
+
+Data Modeling (Fact & Dimension tables)
+
+
+
+🔄 Project Workflow
+1. Data Import & Modeling
+
+
+Imported raw bike station data into Power BI
+
+
+Defined relationships between fact and dimension tables
+
+
+Ensured proper schema for accurate aggregations and filtering
+
+
+
+2. DAX Measures & Calculated Metrics
+Created key DAX measures to track system performance:
+
+
+Total Stations
+
+
+Available Bikes
+
+
+Available Bike Stands
+
+
+Bike Stand Capacity
+
+
+Open Stations
+
+
+Banking Stations
+
+
+Overall Utilization %
+
+
+Zero-Bike Stations
+
+
+These measures enable real-time monitoring and drill-down analysis across cities.
+
+📊 Executive Summary (Dashboard KPIs)
+MetricValueInsightTotal Stations2,700Size of the monitored networkBike Stand Capacity54KMaximum docking capacityAvailable Bike Stands31KSpare capacity availableAvailable Bikes18KCurrent supply for usersOpen Stations2,496Operational stationsBanking Stations327Payment-enabled coverageOverall Utilization34%Low system usageZero-Bike Stations669Critical service gaps
+
+🔍 Key Insights & Findings
+
+
+Underutilized Infrastructure
+
+
+The network has high stand capacity (54K) but only 18K bikes deployed
+
+
+Indicates inefficient asset utilization
+
+
+
+
+Low Overall Utilization (34%)
+
+
+Nearly two-thirds of docking capacity remains unused
+
+
+Opportunity for better fleet distribution
+
+
+
+
+Service Reliability Issue
+
+
+669 open stations have zero bikes
+
+
+Users cannot start trips at these locations
+
+
+
+
+City-level Variation
+
+
+Utilization varies significantly by contract (city)
+
+
+Some cities operate efficiently, others are under-used
+
+
+
+
+Banking Stations Opportunity
+
+
+327 stations support payments
+
+
+Potential to analyze whether banking improves usage and where to expand it
+
+
+
+
+
+📈 Business Impact
+
+
+Identifies rebalancing needs to reduce zero-bike stations
+
+
+Highlights cities with poor utilization for targeted intervention
+
+
+Supports capacity right-sizing and redistribution strategies
+
+
+Improves customer trust and service reliability
+
+
+
+✅ Conclusion
+The Power BI dashboard reveals that the bike-sharing network has strong infrastructure but low operational efficiency.
+Despite large station and stand capacity, low utilization and a high number of zero-bike stations indicate rebalancing and planning gaps.
+By addressing these issues—especially in underperforming cities—the system can significantly improve usage, reliability, and user satisfaction.
